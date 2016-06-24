@@ -6,7 +6,7 @@ This library offers rudimentary access to the browser's localStorage, which is
 limited to string keys and values. It uses Elm Tasks for storage IO.
 
 # Retrieving
-@docs get
+@docs get, Error
 
 # Storing
 @docs set
