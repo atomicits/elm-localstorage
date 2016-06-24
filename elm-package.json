@@ -1,7 +1,7 @@
 {
     "version": "1.0.0",
     "summary": "elm implementation of loacal storage",
-    "repository": "https://github.com/user/project.git",
+    "repository": "https://github.com/atomicits/elm-localstorage.git",
     "license": "BSD3",
     "source-directories": [
         "."
