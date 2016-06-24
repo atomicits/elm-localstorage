@@ -27,8 +27,8 @@ import Maybe exposing (Maybe(..))
   Error Object
 -}
 type Error
-  = NoStorage
-  | UnexpectedPayload String
+    = NoStorage
+    | UnexpectedPayload String
 
 
 {-|
@@ -57,7 +57,7 @@ not available in the browser:
 -}
 get : String -> Task Error (Maybe String)
 get =
-  Native.LocalStorage.get
+    Native.LocalStorage.get
 
 
 {-|
@@ -73,7 +73,7 @@ not available in the browser:
 -}
 set : String -> String -> Task Error String
 set =
-  Native.LocalStorage.set
+    Native.LocalStorage.set
 
 
 {-|
@@ -89,4 +89,4 @@ not available in the browser:
 -}
 remove : String -> Task Error String
 remove key =
-  Native.LocalStorage.remove
+    Native.LocalStorage.remove
